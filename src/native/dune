@@ -1,5 +1,5 @@
 (library
  (name promise)
- (public_name promise)
+ (public_name tan-promise)
  (libraries result)
  (flags (:standard -w +A)))
