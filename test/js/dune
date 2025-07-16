@@ -1,9 +1,0 @@
-(copy_files
- (mode fallback)
- (files ../native/*.re))
-
-(melange.emit
- (target test)
- (libraries framework_js promise_js isoresult_js test_ffi_js)
- (preprocess
-  (pps melange.ppx)))

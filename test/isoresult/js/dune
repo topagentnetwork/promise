@@ -1,5 +1,0 @@
-(library
- (name isoresult_js)
- (modes melange)
- (wrapped false)
- (libraries melange.belt))
